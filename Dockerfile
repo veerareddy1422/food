@@ -6,7 +6,7 @@ WORKDIR /var/www/html/
 
 # Copy your web application files into the container (replace with your app files)
 # If your website files are in the current directory, use this command:
-COPY ./food/ /var/www/html/
+COPY . /var/www/html/
 
 # Expose port 80 to allow web traffic
 EXPOSE 80
