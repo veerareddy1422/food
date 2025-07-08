@@ -6,7 +6,7 @@ WORKDIR /var/www/html/
 
 # Copy your web application files into the container (replace with your app files)
 # If your website files are in the current directory, use this command:
-COPY . /var/www/html/
+COPY . /usr/local/apache2/htdocs/
 
 # Expose port 80 to allow web traffic
 EXPOSE 80
